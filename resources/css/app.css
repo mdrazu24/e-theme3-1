@@ -1,0 +1,18 @@
+:root {
+  --animate-delay: 3s;
+  --animate-duration: 2s;
+}
+
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active,
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover{
+    box-shadow: none!important;
+    outline: 0;
+}
+
+.form-control:hover,.form-control:focus,.form-control:active,
+.form-control:active:focus:not(:disabled):not(.disabled),
+.form-control:focus, .form-control:active, .form-control:hover{
+    box-shadow: none!important;
+    outline: 0;
+}
